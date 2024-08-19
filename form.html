@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <h3>Application Form</h3>
+
+   <label for="firstname">First Name</label><br>
+   <input type="text" id="firstname" maxlength="20" placeholder="20 letters only"><br>
+   <label for="lastname">Last Name</label><br>
+   <input type="text" id="lastname" maxlength="20" placeholder="20 letters only">
+
+   <!-- Radio -->
+   <p>Region</p>
+   <input type="radio" id="Asia" name="region">
+   <label for="Asia">Asia</label>
+   <input type="radio" id="Europe" name="region">
+   <label for="Europe">Europe</label>
+   <input type="radio" id="north" name="region">
+   <label for="north">North America</label>
+   <input type="radio" id="south" name="region">
+   <label for="south">South America</label>
+   <input type="radio" id="Africa" name="region">
+   <label for="Africa">Africa</label>
+
+   <!-- Checkbox -->
+   <p>Coding Class</p>
+   <input type="checkbox" id="java">
+   <label for="java">JavaScript</label>
+   <input type="checkbox" id="python">
+   <label for="python">Python</label>
+   <input type="checkbox" id="htmlcss">
+   <label for="htmlcss">HTML/CSS</label>
+
+   <!-- Part 3 : Other form elements-->
+    <!-- Select -->
+    <br><hr><label for="programming">Your coding experiences</label>
+    <select id="programming">
+        <option value="no">No Experiences</option>
+        <option value="some">Some Experiences</option>
+        <option value="some">Extensive Experiences</option>
+    </select><br><br>
+    
+    <!-- Text Area -->
+    <label for="comment">Any other comments for your application</label><br>
+    <textarea id="comment" cols="35" rows="10"></textarea>
+</body>
+</html>

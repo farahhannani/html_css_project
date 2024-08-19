@@ -1,0 +1,22 @@
+
+
+    /* Center align the Heading element, heading normal instead of bold */
+        h1 {
+            text-align: center;
+            font-family: Verdana;
+            font-weight: normal;
+        }
+
+    /* Remove the underline from the hyperlink and font Courier New */
+        a {
+            text-decoration: none;
+            font-family: 'Courier New';
+        }
+
+    /* paragraph style to italics and increase their font size */
+        p {
+            font-family: 'Courier New';
+            font-style: italic;
+            font-size: 1.5em;
+        }
+    

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        span {
+            color: green;
+            display: block; /* Makes the span behave as a block element */
+            /* Uncomment the following line to hide the block elements */
+            /* display: none; */ /* Hides the span and removes it from the document flow */
+        }
+
+        #d1, #d2, #d3 {
+            float: left;
+            padding: 5px;
+        }
+
+        /*  first image is hidden but still occupying the space */
+        #d1 {
+            visibility: hidden;
+        }
+
+        /* second image is hidden but its space is occupied by the third image. */
+        #d2 {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a heading</h1>
+    <p>This is a <span>paragraph</span>, with some words more <span>paragraph</span> than others.</p>
+    <div id="d1">
+        <img src="human.jpg" alt="dog">
+    </div>
+    <div id="d2">
+        <img src="Inner Directory/bird.png" alt="bird">
+    </div>
+    <div id="d3">
+        <img src="space.png" alt="human">
+    </div>
+</body>
+</html>
